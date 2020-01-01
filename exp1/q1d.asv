@@ -1,0 +1,11 @@
+t = ones(100)
+
+i = 1;
+for beta = [1j 1+1j]
+    x = exp( beta );
+    
+    subplot(2,1,i)
+    plot(real(x)),title("a ");
+    
+    i = i + 1
+end

@@ -1,0 +1,4 @@
+
+for a = [5+4j,4]
+   for alpha = [2 0.5 ] 
+end
